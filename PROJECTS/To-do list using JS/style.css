@@ -1,0 +1,51 @@
+body{
+    color: rebeccapurple;
+    background: linear-gradient(to right, #eeaeca, #94bbe9);
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+#add-task-button{
+    display: flex;
+    border-radius: 0.4rem;
+    border: antiquewhite solid 1px;
+    padding: 0.5rem 1rem;
+    margin: auto;
+    align-items: center;
+    background-color: black;
+    color: #94bbe9;
+}
+
+.task{
+    font-weight: bold;
+    color: #1F2937;
+    background-color: rgba(229, 231, 235, 0.3);
+    font-size: larger;
+}
+
+.delete-btn{
+    background-color: red;
+    width: 30px;
+    margin: 0.5rem;
+}
+
+.task-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 5rem;
+}
+
+#input-task{
+    padding: 0.5rem 0.5rem;
+    margin-bottom: 2rem;
+    width: 30vw;
+}
+
+input[type="checkbox"]{
+    width: 40px;
+    height: 20px;
+}
+
