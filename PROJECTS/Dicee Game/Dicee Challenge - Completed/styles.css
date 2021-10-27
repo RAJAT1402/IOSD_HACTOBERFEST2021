@@ -1,0 +1,103 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #c5d5cb;
+}
+
+h3 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 6rem;
+  color: #4ECCA3;
+}
+
+
+#drawN{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: serif;
+  font-weight: bold;
+}
+
+#winRound{
+  font-family: serif;
+  font-weight: bold;
+}
+
+#thisround{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  font-size: 25px;
+  margin-top: 1%;
+  color: #fff;
+  text-align: center;
+}
+
+#f1{
+  font-style: italic;
+  font-family: 'Indie Flower', cursive;
+  color:#45b3e0;
+  font-weight: 1000;
+    text-shadow: 1px 0 #232931
+font-weight: bold;
+}
+
+a{
+  color: #f5f5f5;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+.button {
+
+  height: 65px;
+  width: 185px;
+  line-height: 65px;
+  cursor: pointer;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #F0F0F0;
+  border-radius: 10px;
+  border-bottom: 4px solid #c0392b;
+  box-shadow: 6px 6px 6px #999;
+  user-select: none;
+  background: #e74c3c;
+  transition: background 0.05s linear;
+  transition: all .05s linear;
+}
+
+.button:active {
+  box-shadow: 2px 2px 2px #777;
+  border-bottom: 1px solid #c0392b;
+  transform: translateY(3px);
+}
