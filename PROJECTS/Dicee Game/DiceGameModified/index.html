@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+
+
+    <meta charset="utf-8">
+    <title>Dice</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+
+
+
+  </head>
+  <body>
+    <center>
+<h1>Welcome to Dice Game</h1>
+</center>
+    <div class="container">
+      <h3>Refresh Me</h3>
+<h5>Total rounds = 0</h5>
+      <div class="dice">
+        <p>Player 1</p>
+        <h4 id="emoji1">😃</h4>
+        <img class="img1" src="images/dice6.png">
+        <h6 id="totalpoint1">Total points = 0</h6>
+      </div>
+
+      <div class="dice">
+        <p>Player 2</p>
+          <h4 id="emoji2">😃</h4>
+        <img class="img2" src="images/dice6.png">
+        <h6 id="totalpoint2">Total points = 0</h6>
+      </div>
+
+    </div>
+<center>
+
+  <h4 id="thisround">Let's start the game </h4> 
+
+  <button onclick="play()" type="button" class="btn btn-outline-danger">Play next Round</button>
+
+</center>
+
+
+
+<script src="index.js" charset="utf-8"></script>
+      </body>
+
+      <footer>
+      The 🎲 Fair Dice 🎲 game<br>
+      ©Copyright@Chandramauli.dev
+      </footer>
+    </html>
